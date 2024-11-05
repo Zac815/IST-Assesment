@@ -1,0 +1,135 @@
+speed(0)
+penup()
+goto(-140, 200) #Top Left
+color("#235095")#blue bg
+begin_fill()
+pendown()
+goto(140, 200) #Top Right
+goto(140, -200)#Bottom Right
+goto(-140, -200) #Bottom Left
+end_fill()
+penup()
+goto(140, 0)
+pendown()
+color("black")
+goto(122.5, 0)
+color("#fcb134")#yellow middle circle fill
+begin_fill()#middle circle fill
+left(270)#middle circle fill
+circle(-123, 360)#middle circle
+end_fill()#middle circle fill
+left(90)
+penup()
+goto(-140, 150)
+pendown()
+color("white")
+begin_fill()
+circle(-140, 180)
+end_fill()
+penup()
+goto(140, 150)
+pendown()
+begin_fill()
+circle(140, 180)
+end_fill()
+color("black")
+circle(140, -180)#Redoing right side cricle outline
+penup()
+goto(-140, 150)
+pendown()
+circle(140, -180)#Redoing left side cricle outline
+goto(-140, 200)#Redoing rectangle outline
+goto(140, 200) #Redoing rectangle outline
+goto(140, -200)#Redoing rectangle outline
+goto(-140, -200)#Redoing rectangle outline
+penup()
+goto(-140, -200)#bottom left
+pendown()
+goto(-140, -36.25)
+goto(-25, -36.25)
+color("#B22222")#red square fill
+begin_fill()#square fill
+goto(-25, 43.75)#square fill
+goto(-105, 43.75)#square fill
+goto(-105, -36.25)#square fill
+end_fill()#square fill
+color("black")#square outline
+goto(-25, -36.25)#square outline
+goto(-25, 43.25)#square outline
+goto(-105, 43.75)#square outline
+goto(-105, -36.25)#square outline
+penup()
+goto(87.5, 0)
+pendown()
+color("#B22222")
+begin_fill()
+goto(140, 0)
+goto(140, 43.75)
+goto(52.5, 43.75)
+goto(52.5, 0)
+end_fill()
+color("black")
+goto(140, 0)
+goto(140, 43.75)
+goto(52.5, 43.75)
+goto(52.5, 0)
+penup()
+goto(122.5, 0)
+pendown()
+left(270)
+circle(-123, 360)#outline middle circle
+penup()
+goto(-95, -76.25)
+penup()
+color("#2b27dc")
+goto(-0.5,0)
+begin_fill()
+left(176)
+circle(140, 40) #blue circle, left side.
+goto(-25, 0)
+end_fill()
+color("black")
+pendown()
+goto(0,0)
+right(40)
+circle(140, 40)
+goto(-25, 0)
+penup()
+goto(-95.5, -76.25)
+left(182)
+color("#B22222")#red weird shape fill, left side, middle circle
+begin_fill()
+circle(123, 20)
+left(65)
+circle(140, 18)
+end_fill()
+color("black")
+pendown()
+goto(-95.5, -76.25)
+right(103)
+circle(123, 20)
+left(63)
+circle(140, 19)
+penup()
+goto(15, -51)
+pendown()
+color("#B22222")
+begin_fill()
+left(66)
+circle(-140, 55)
+end_fill()
+color("black")
+goto(15, -51)
+left(55)
+circle(-140, 55)
+color("#2b27dc")
+begin_fill()
+circle(-140, 18)
+right(65)
+circle(-123, 20)
+goto(82, 43.75)
+goto(15, 43.75)
+end_fill()
+color("black")
+goto(15, -51)
+goto(15, 70)
